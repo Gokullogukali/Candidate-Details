@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+
+<style>
+    .register-form {
+        width: 300px;
+        margin: 0 auto;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    .register-form h3 {
+        text-align: center;
+        color: #180303;
+        font-size: 20px;
+        padding: 20px 0 20px 0;
+    }
+
+    .register-form input[type="password"],
+        .register-form input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #dddddd;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+
+</style>
+
+   <body>
+    <div class="register-form">
+    <h3>Gokul Registration Form</h3>
+    <form action="/user" method="POST">
+        firstname:<input type="text" name="firstname" placeholder="firstname"></br>
+        lastname:<input type="text" name="lastname" placeholder="lastname" ></br>
+        email:<input type="text" name="email" placeholder="email" ></br>
+        mobile:<input type="text" name="mobile" placeholder="mobile" ></br>
+        address:<input type="text" name="address" placeholder="address" ></br>
+        username:<input type="text" name="username" placeholder="username" ></br>
+        password:<input type="password" name="password" placeholder="password" ></br>
+        <input type="submit">
+    </form>
+  
+</div>  
+   </body> 
+</html>
+
+
+
+
+
+
+
+
